@@ -15,3 +15,4 @@ A simple weather web app built with HTML, CSS and JavaScript using the OpenWeath
 - OpenWeather API
 
 ## View it live
+https://technigo-project-weather-app-main.pages.dev/
