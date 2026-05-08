@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather app</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div>
+    <p class="current-main">
+      <span id="description"></span>
+      <span class="divider"> | </span>
+      <span id="temperature"></span>
+    </p>
+
+    <p id="sunrise"></p>
+    <p id="sunset"></p>
+  </div>
+
+  <img id="weather-icon" alt="" />
+
+  <h1 class="headline">
+    Väderleksrapporten säger att <span id="city"></span> ser ut att få ett behagligt väder
+  </h1>
+
+  <section id="forecast"></section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
